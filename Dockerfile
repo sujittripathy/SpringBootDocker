@@ -1,5 +1,4 @@
-FROM openjdk
-
-COPY /target/SpringBootDocker-0.0.1-SNAPSHOT.jar /opt/SpringBootDocker-0.0.1-SNAPSHOT.jar
-
-java -jar /opt/SpringBootDocker-0.0.1-SNAPSHOT.jar
+FROM openjdk:8-jdk-alpine
+VOLUME /tmp
+ADD /target/SpringBootDocker-0.0.1-SNAPSHOT.jar /opt/app.jar
+ENTRYPOINT ["java","-jar","/opt/app.jar"]
