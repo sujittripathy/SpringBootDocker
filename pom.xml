@@ -52,6 +52,7 @@
 					<repository>${docker.image.prefix}/spring-boot-docker</repository>
 					<serverId>docker-hub</serverId>
 					<registryUrl>https://index.docker.io/v1</registryUrl>
+					<useConfigFile>true</useConfigFile>
 				</configuration>
 			</plugin>
 		</plugins>
