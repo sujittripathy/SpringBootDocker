@@ -1,4 +1,6 @@
-This is a SpringBoot project which can be run as an executable jar on Docker container. The Docker functionality can be achieved by maven lifecycle commands, enabled by Spotify plugin.
+# SpringBoot with Docker
+
+This is a **SpringBoot** project which can be run as an executable jar on Docker container. The Docker functionality can be achieved by maven lifecycle commands, enabled by Spotify plugin.
 
 Build the project, and image will be created.
 
